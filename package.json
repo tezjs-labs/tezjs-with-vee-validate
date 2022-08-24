@@ -1,0 +1,22 @@
+{
+  "name": "tezjs-with-vee-validate",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "tez dev",
+    "build": "tez build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@tezjs/vue": "0.0.78",
+    "vee-validate": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tezjs/cli": "0.0.78",
+    "@tezjs/route": "0.0.78",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
